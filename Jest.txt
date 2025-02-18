@@ -8,3 +8,11 @@ https://runebook.dev/ko/docs/jest/expect
 
 Jest Matcher
  -> 결과 확인을 위한 메서드(이게 맞냐를 물어보는 메서드.)
+
+ toEqual() : 객체 검증(왠만하면 이걸로 처리)
+ toBe() : 단순한 값을 비교할때
+ toBeDefined() : 변수정의 여부 테스트
+ toBeTruthy() / toBeFalsy() : t/f 검증
+  -> 검증대상의 참 거짓을 판별
+     (js의 특성상 true/false가 모든값에 적용이 된다는 특징이 있음.)
+  -> 검증대상의 정의를 제대로 정할필요가 있음.
